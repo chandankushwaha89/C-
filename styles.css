@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #035b09;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#home{
+    text-align: center;
+    background-color: rgb(182, 249, 249);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+    background-color: rgb(182, 249, 249);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+   
+    bottom: 0;
+    width: 100%;
+}
+
+hr.new5 {
+    border: 3px solid green;
+    border-radius: 5px;
+  }
+
+  .button {
+    display: inline-block;
+    background-color: #4CAF50;
+    /* Set button background color */
+    color: white;
+    /* Set text color */
+    padding: 10px 20px;
+    /* Set padding */
+    text-align: center;
+    /* Center text horizontally */
+    text-decoration: none;
+    /* Remove underline */
+    font-size: 16px;
+    /* Set font size */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Add cursor pointer */
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+    /* Change background color on hover */
+  }
